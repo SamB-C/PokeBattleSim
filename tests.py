@@ -1,7 +1,7 @@
 import unittest
 
 
-class Test(unittest.TestCase):
+class Tests(unittest.TestCase):
     def test_1(self):
         self.assertEqual(1, 1)
 
@@ -9,5 +9,4 @@ class Test(unittest.TestCase):
         self.assertEqual(1, 2)
 
 
-Test().test_1()
-Test().test_2()
+unittest.main()
